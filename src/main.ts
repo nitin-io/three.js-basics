@@ -42,7 +42,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 const hemiLight = new THREE.HemisphereLight(0xffffff, 0x222222);
 scene.add(hemiLight);
 
-const controls = new OrbitControls(camera, renderer.domElement);
+new OrbitControls(camera, renderer.domElement);
 // controls.addEventListener("change", () => {
 //   renderer.render(scene, camera);
 // });
