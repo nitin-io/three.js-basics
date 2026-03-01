@@ -4,4 +4,5 @@ export default defineConfig({
   build: {
     outDir: "docs",
   },
+  base: "/three.js-basics",
 });
